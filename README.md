@@ -1,1 +1,3 @@
-# pv-ts-test-package
+# Test Package
+
+Practicing package development and testing in Typescript.
