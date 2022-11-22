@@ -1,6 +1,6 @@
 {
   "name": "pv-ts-test-package",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Practicing package development and testing in Typescript.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -10,7 +10,7 @@
   "scripts": {
     "test": "jest --config jestconfig.json",
     "build": "tsc",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
@@ -22,15 +22,16 @@
     "type": "git",
     "url": "git+https://github.com/pommevilla/pv-ts-test-package.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Hello",
+    "Greeter"
+  ],
+  "author": "Paul Villanueva",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/pommevilla/pv-ts-test-package/issues"
   },
   "homepage": "https://github.com/pommevilla/pv-ts-test-package#readme",
-  "keywords": ["Hello", "Greeter"],
-  "author": "Paul Villanueva",
   "devDependencies": {
     "@types/jest": "^29.2.3",
     "jest": "^29.3.1",
