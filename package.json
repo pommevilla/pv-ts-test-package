@@ -1,6 +1,6 @@
 {
   "name": "pv-ts-test-package",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Practicing package development and testing in Typescript.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
